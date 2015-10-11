@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coyote Carpool</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="img/coyote.png"/>
+	</head>
+	<body>
+
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+
+				<a class="pull-left" href="index.html">
+                    <img src="img/coyote.png" id="coyote"/>
+                </a>
+
+				<a href="index.html" class="navbar-brand">Coyote Carpool</a>
+
+				<div class="navbar-header"> <!-- Need this to make collapsed menu button work. -->
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+
+					<ul class="nav navbar-nav navbar-right">
+
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Google+</a></li>
+								<li><a href="#">Instagram</a></li>
+							</ul>
+						</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+						<li><a href="#">Sign In</a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-9">
+
+					<div class="panel panel-default">
+
+						<div class="panel-body">
+							
+							<div class="page-header">
+
+								<h3> Whatever you want <small>Posted on Sept. 26</small></h3>
+
+							</div>
+
+							<img class="featuredImg" src="img/waynesworld.jpg" width="100%">
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod risus pulvinar, iaculis est at, pharetra sapien. Sed ante enim, tempor et ligula eget, pretium egestas nisl. Curabitur scelerisque, orci a efficitur congue, turpis augue vehicula neque, quis fringilla dolor mi eu sapien. Nullam hendrerit, arcu ut porttitor suscipit, lectus nunc fringilla velit, placerat vestibulum diam felis at mauris. Suspendisse eleifend porta odio rutrum hendrerit. Fusce efficitur, libero ut maximus pharetra, libero augue consequat ante, vel sagittis ipsum velit venenatis nunc. Etiam feugiat erat sed sapien aliquet molestie. Morbi ex quam, congue sit amet gravida sed, dapibus aliquet tellus. Cras quis placerat turpis, quis eleifend lorem. Suspendisse sit amet tristique risus, et sodales purus. Maecenas vel aliquet eros, porttitor iaculis tortor. Nam quam ipsum, cursus tempor porta in, commodo id lectus.</p>
+
+							<h4>A heading</h4>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod risus pulvinar, iaculis est at, pharetra sapien. Sed ante enim, tempor et ligula eget, pretium egestas nisl. Curabitur scelerisque, orci a efficitur congue, turpis augue vehicula neque, quis fringilla dolor mi eu sapien. Nullam hendrerit, arcu ut porttitor suscipit, lectus nunc fringilla velit, placerat vestibulum diam felis at mauris. Suspendisse eleifend porta odio rutrum hendrerit. Fusce efficitur, libero ut maximus pharetra, libero augue consequat ante, vel sagittis ipsum velit venenatis nunc. Etiam feugiat erat sed sapien aliquet molestie. Morbi ex quam, congue sit amet gravida sed, dapibus aliquet tellus. Cras quis placerat turpis, quis eleifend lorem. Suspendisse sit amet tristique risus, et sodales purus. Maecenas vel aliquet eros, porttitor iaculis tortor. Nam quam ipsum, cursus tempor porta in, commodo id lectus.</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-3">
+
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Lorem ipsum</h4>
+							<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod risus pulvinar, iaculis est at, pharetra sapien.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Lorem ipsum</h4>
+							<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod risus pulvinar, iaculis est at, pharetra sapien.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Lorem ipsum</h4>
+							<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod risus pulvinar, iaculis est at, pharetra sapien.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Lorem ipsum</h4>
+							<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod risus pulvinar, iaculis est at, pharetra sapien.</p>
+						</a>
+
+				</div>
+
+			</div>
+		</div>
+
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container-fluid"> <!--Use .container-fluid for a full width container, spanning the entire width of your viewport. -->
+	
+				<p class="navbar-text pull-left">Site Built By Adam Salcido</p> <!-- Supposed to pull text left, but doesn't. Had to use container-fluid -->
+
+				<a class="navbar-btn btn-danger btn pull-right">Suscribe on Youtube</a> <!-- Creates a Youtube button, and pulls to the right end of the nav bar -->
+			</div>
+		</div>
+
+		<div class="modal fade" id="contact" role="dialog"> <!-- How to make a pop-up box -->
+
+			<div class="modal-dialog">
+
+				<div class="modal-content">
+					<form class="form-horizontal">
+
+						<div class="modal-header">
+
+							<h4>Contact Tech Site</h4>
+
+						</div>
+
+						<div class="modal-body">
+
+							<div class="form-group">
+
+								<label for="contact-name" class="col-lg-2 control-label">Name:</label>
+								<div class="col-lg-10">
+
+									<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+
+								</div>
+
+							</div>
+
+							<div class="form-group">
+
+								<label for="contact-name" class="col-lg-2 control-label">Email:</label>
+								<div class="col-lg-10">
+
+									<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+
+								</div>
+
+							</div>
+
+							<div class="form-group">
+
+								<label for="contact-name" class="col-lg-2 control-label">Message:</label>
+								<div class="col-lg-10">
+
+									<textarea class="form-control" rows="8"></textarea>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="modal-footer">
+
+							<a class="btn btn-danger" data-dismiss="modal">Close</a>
+							<button class="btn btn-primary" type="submit">Send</button>
+
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
+
