@@ -196,12 +196,18 @@ Image credits: unsplash.com
 }
 .fade-carousel .slides .slide-1 {
   background-image: url(http://static1.gamespot.com/uploads/original/43/434805/2881889-01+ryu+vtrigger.png); 
+  max-height: 100%;
+  max-width: 100%;
 }
 .fade-carousel .slides .slide-2 {
   background-image: url(http://071bc3d04e2671665c74-5a267f839fbe60d0845a37698418bb02.r26.cf5.rackcdn.com/wp-content/uploads/2015/01/mortal-kombat-x-scorpion-vs-torr-gameplay-screenshot.jpg);
+  max-height: 100%;
+  max-width: 100%;
 }
 .fade-carousel .slides .slide-3 {
   background-image: url(http://cdn3-www.playstationlifestyle.net/assets/uploads/gallery/tekken-7-josie-jin-devil-jin/tekken7-8.jpg);
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /********************************/
